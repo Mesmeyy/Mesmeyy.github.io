@@ -387,9 +387,9 @@
 	var days = date.getDate();
 	document.getElementById("startTime").innerHTML  = years+'-'+month+'-'+days + ' 19时';
 	document.getElementById("endTime").innerHTML  = years+'-'+month+'-'+days + ' 22时';
-	document.getElementById("submitTime").innerHTML  = '0'+month+'-0'+days + ' 10:01';
-	document.getElementById("teacherTime").innerHTML  = '0'+month+'-0'+days + ' 10:25';
-	document.getElementById("guideTime").innerHTML  = '0'+month+'-0'+days + ' 11:05';
+	document.getElementById("submitTime").innerHTML  = ''+month+'-'+days + ' 10:01';
+	document.getElementById("teacherTime").innerHTML  = ''+month+'-'+days + ' 10:25';
+	document.getElementById("guideTime").innerHTML  = ''+month+'-'+days + ' 11:05';
 	};
 	setInterval("starttime()");
 </script>
